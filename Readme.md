@@ -10,4 +10,4 @@ Si tu instalacion de python no incluye la biblioteca Opencv, puedes instalarla e
 
 ### Ejecucion del programa
 
-Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python, seleccionar y abrir el programa 'Reconocimiento_facial.py' en tu entorno. A continuacion localiza la linea de codigo 'face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml'), Reemplaza 'RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml' con la ubicación real del archivo 'haarcascade_frontalface_default.xml' en tu PC, por ultimo ejecuta el programa y funcionará sin problemas.
+Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python, seleccionar y abrir el programa 'Reconocimiento_facial.py' en tu entorno. A continuacion localiza la linea de codigo '''face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml')''', Reemplaza 'RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml' con la ubicación real del archivo 'haarcascade_frontalface_default.xml' en tu PC, por ultimo ejecuta el programa y funcionará sin problemas.
