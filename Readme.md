@@ -32,7 +32,7 @@ Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python
 
 Reemplaza 'RUTA/DE/TU/ARCHIVO/haarcascade_eye.xml' con la ubicación real del archivo 'haarcascade_eye.xml' en tu PC, por ultimo ejecuta el programa y funcionará sin problemas.
 
-### Programa deteccion de objetos(autos) en video
+## Programa deteccion de objetos(autos) en video
 
 Este programa es una aplicación simple que utiliza la biblioteca OpenCV y el clasificador de cascada de Haar, para detectar autos en un video, para la ejecución respectiva del programa en tu PC necesitarás tener instalado el programa Python (recomendación la versión más actual de Python), en caso de no tenerlo en este enlace podrá descargar el Python más actual [Descargar_Python](https://www.python.org/).
 
