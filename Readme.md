@@ -12,7 +12,9 @@ Si tu instalacion de python no incluye la biblioteca Opencv, puedes instalarla e
 
 Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python, seleccionar y abrir el programa 'Reconocimiento_facial.py' en tu entorno. A continuacion localiza la linea de codigo
 
-`face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml')`
+```
+face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml')
+```
 
 Reemplaza 'RUTA/DE/TU/ARCHIVO/haarcascade_frontalface_default.xml' con la ubicación real del archivo 'haarcascade_frontalface_default.xml' en tu PC, por ultimo ejecuta el programa y funcionará sin problemas.
 
@@ -28,7 +30,9 @@ Si tu instalacion de python no incluye la biblioteca Opencv, puedes instalarla e
 
 Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python, seleccionar y abrir el programa 'Reconocimiento_ojos.py' en tu entorno. A continuacion localiza la linea de codigo
 
-`face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_eye.xml')`
+```
+face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/haarcascade_eye.xml')
+```
 
 Reemplaza 'RUTA/DE/TU/ARCHIVO/haarcascade_eye.xml' con la ubicación real del archivo 'haarcascade_eye.xml' en tu PC, por ultimo ejecuta el programa y funcionará sin problemas.
 
@@ -42,10 +46,14 @@ Si tu instalacion de python no incluye la biblioteca Opencv, puedes instalarla e
 
 Para ejecutar este programa lo primero que haras sera abrir tu entorno de Python, seleccionar y abrir el programa 'Reconocimiento_autos.py' en tu entorno. A continuacion localiza la linea de codigo
 
-`face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/cars.xml')`
+```
+face_classifier = cv2.CascadeClassifier('RUTA/DE/TU/ARCHIVO/cars.xml')
+```
 
 Reemplaza 'RUTA/DE/TU/ARCHIVO/cars.xml' con la ubicación real del archivo 'cars.xml' en tu PC, prosiguiendo deberas localizar la linea
 
-`captura = cv2.VideoCapture('RUTA/DE/TU/ARCHIVO/Autos.mp4')`
+```
+captura = cv2.VideoCapture('RUTA/DE/TU/ARCHIVO/Autos.mp4')
+```
 
 La cual se encarga de cargar el archivo de video y lo convierte en una fuente de entrada de video para el programa, Reemplaza 'RUTA/DE/TU/ARCHIVO/Autos.mp4' con la ubicación real del archivo 'Autos.mp4' en tu PC.
