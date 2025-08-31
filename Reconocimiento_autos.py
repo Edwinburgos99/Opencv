@@ -3,10 +3,10 @@
 import cv2
 
 # Cargar el clasificador de cascada de Haar para detección de autos
-face_classifier = cv2.CascadeClassifier('C:/Users/Edwin/Desktop/cars.xml')
+face_classifier = cv2.CascadeClassifier('C:/Users/Edwin/Desktop/Opencv/cars.xml')
 
 # Esta línea de código permite cargar un archivo de video y lo convierte en una fuente de entrada de video para el programa
-captura = cv2.VideoCapture('C:/Users/Edwin/Desktop/Autos.mp4')
+captura = cv2.VideoCapture('C:/Users/Edwin/Desktop/Opencv/Autos.mp4')
 
 # Configuración de títulos y estilo de fuente
 titulo = "Captura Car"
